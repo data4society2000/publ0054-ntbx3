@@ -1,6 +1,6 @@
 #Creating graphs visualising my data
 
-#Load relevant packages if not done already
+#Reload relevant packages
 library(dplyr)
 library(readr)
 library(tidyr)
@@ -12,7 +12,7 @@ library(interactions)
 #Load data
 data_eu <- read_csv("diss_data_eu.csv")
 
-#Figure 1: plotting three types of disinfo over time in the EU
+#Figure 1:  three types of disinfo over time in the EU
 disinfo_long_eu <- data_eu %>%
   select(year, country_name, v2smgovdom, v2smpardom, v2smfordom) %>%
   pivot_longer(cols = starts_with("v2sm"),
