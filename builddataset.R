@@ -24,7 +24,7 @@ vdem <- vdem %>%
          v2x_jucon, v2xlg_legcon, v2xel_frefair, v2smgovsmcenprc,
          v2xeg_eqdr, v2caautmob, v2smpolhate)
 
-#Add IS03 codes 
+#Add IS03 codes (had to add some irregular ones manually)
 vdem$iso3 <- countrycode(vdem$country_name, "country.name", "iso3c")
 vdem$iso3[vdem$country_name == "Kosovo"]     <- "XKX"
 vdem$iso3[vdem$country_name == "Somaliland"] <- "SML"
@@ -98,8 +98,7 @@ data <- data %>%
   group_by(country_name) %>%
   arrange(year, .by_group = TRUE) %>%
   mutate(
-    delibdem_3yr   = v2x_delibdem - lag(v2x_delibdem, 3),
-    backsliding_3yr = v2x_libdem - lag(v2x_libdem, 3)   # kept only if you need it
+    delibdem_3yr   = v2x_delibdem - lag(v2x_delibdem, 3)
   ) %>%
   ungroup()
 
