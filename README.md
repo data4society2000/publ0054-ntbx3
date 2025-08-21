@@ -4,6 +4,8 @@ This repository contains three R scripts used in my dissertation research on the
 
 The workflow is organised into three steps: dataset creation, regression analysis, and plotting.  
 
+For a full description of all the variables included in the dataset, please refer to Appendix B of the dissertation.
+
 ---
 
 ## Contents
@@ -47,7 +49,3 @@ If you use this code, please cite the V-Dem v15 dataset and the World Bank Gini 
 Coppedge, M., Gerring, J., Knutsen, C.H., Lindberg, S.I., Teorell, J., Altman, D., Angiolillo, F., Bernhard, M., et al. (2025). V-Dem [Country-Year/Country-Date] Dataset v15. Varieties of Democracy (V-Dem) Project. Available at: https://doi.org/10.23696/vdemds25. 
 
 World Bank. (n.d.). ‘Gini index’. [online] World Bank. Available at: https://data.worldbank.org/indicator/SI.POV.GINI.
-
-## Acknowledgments
-
-For a full description of all the variables included in the dataset, please refer to Appendix B of the dissertation.
