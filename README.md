@@ -50,4 +50,4 @@ World Bank. (n.d.). ‘Gini index’. [online] World Bank. Available at: https:/
 
 ## Acknowledgments
 
-I would like to thank my partner, Nicholas Price, for his guidance in setting up this repository and writing the README.
+For a full description of all the variables included in the dataset, please refer to Appendix B of the dissertation.
