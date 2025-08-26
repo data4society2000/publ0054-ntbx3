@@ -1,4 +1,4 @@
-# Disinformation and Deliberative Democracy – R Scripts
+# The Politics of Falsehood: A Mixed Methods Study of Disinformation and Democratic Backsliding in Hungary and Poland - R Scripts
 
 This repository contains three R scripts used in my dissertation research on the relationship between government disinformation and deliberative democracy in the European Union (2000–2024).  
 
